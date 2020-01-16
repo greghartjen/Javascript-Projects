@@ -55,7 +55,7 @@ document.write(y + 89);
 function practiceFunction() {
     var str = "This text is green!";
     var result = str.fontcolor("green");
-    document.getElementById("greenbutton").innerHTML = result;
+    document.getElementById("greenbutton").innerHTML=result;
 }
 
 function dateFunction() {
