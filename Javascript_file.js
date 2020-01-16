@@ -41,3 +41,23 @@ var reds = "The sunset was red."
 var reds = reds.fontcolor("red");
 document.write("<br>");
 document.write(reds);
+document.write("<br>");
+document.write(3 + 3);
+document.write("<br>");
+var x = 3;
+var y = 4;
+document.write(x + y);
+document.write("<br>");
+document.write(x + 6);
+document.write("<br>");
+document.write(y + 89);
+
+function practiceFunction() {
+    var str = "This text is green!";
+    var result = str.fontcolor("green");
+    document.getElementById("greenbutton").innerHTML = result;
+}
+
+function dateFunction() {
+    document.getElementById("dateButton").innerHTML=Date();
+}
