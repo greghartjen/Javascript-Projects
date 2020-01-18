@@ -61,3 +61,4 @@ function practiceFunction() {
 function dateFunction() {
     document.getElementById("dateButton").innerHTML=Date();
 }
+
